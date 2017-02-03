@@ -26,6 +26,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        System.out.println("ADDED THIS THING");
+
         GridPane grid = new GridPane();
 
         String[] suunad = new String[]{"Paldiski", "Tabasalu", "Mustamae", "Kesklinn"};
@@ -95,6 +97,8 @@ public class Main extends Application {
 
         return pop;
     }
+
+
 
 
     public static void main(String[] args) {
